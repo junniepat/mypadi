@@ -6,7 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>Login Page - Now Ui Kit by Creative Tim</title>
+    <title>Student Profile</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -43,7 +43,7 @@
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
-                <a class="navbar-brand" href="http://demos.creative-tim.com/now-ui-kit/index.html" rel="tooltip" title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="#" rel="tooltip" title="Designed  " data-placement="bottom" target="_blank">
                    MYPADI
                 </a>
             </div>
@@ -57,6 +57,7 @@
             <li><div class="row p-4">
   <div class="container p-4 pr-5">
     <div class="input-group input-lg" style="border:1px solid #ccc; width:100%;">
+
          <span class="input-group-addon" style="background:#fff; border:0;">
          <i class="fa fa-search"></i>  </span>
       <input type="text" style="border:0;" class="form-control" placeholder="Product name" aria-label="Product name">
@@ -79,17 +80,30 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-             <ul class="nav-foot"> 
-         <li>Popular</li>
-
-   <li><a href="#"> London</a></li>
-    <li><a href="#"> Philadelphia </a></li>
-    <li><a href="#"> Nido West Hampstead </a></li>
-    </ul>
+        <div class="col-md-4"> 
+         <div><b>Popular</b></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted m-0"> London</a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Philadelphia </a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Nido West Hampstead </a></div>
+    
 
         </div>
-        <div class="col-md-4">ok</div>
+        <div class="col-md-4">
+        <div><b>Popular cities</b></div>    
+<div class="mb-1 p-0">
+    <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60">
+    <a href="#" class="text-muted m-0"> Lagos</a></div>
+   <div class="mb-1 p-0">
+       <a href="#" class="row text-muted m-0">
+        <div class="col-md-2"><img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"></div><div class="col-sm-8"> Enugu Nkanu</a></div></div>
+    <div class="mb-1 p-0"><a href="#" class="text-muted m-0">
+         <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"> test</a></div>
+    <div class="mb-1 p-0"><a href="#" class="text-muted m-0">
+         <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"> Alright</a></div>
+
+
+
+        </div>
         <div class="col-md-4">ok</div>
     </div>
   </div>
