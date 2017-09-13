@@ -48,7 +48,9 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
-                <ul class="navbar-nav">
+              
+
+ <ul class="navbar-nav">
                     <li class="nav-item">
                         <li class="odropdown">
           <a href="#" class="nav-link dropdown-toggle pt-2" data-toggle="dropdown">Search <span class="caret"></span></a>
@@ -56,55 +58,95 @@
             
             <li><div class="row p-4">
   <div class="container p-4 pr-5">
-    <div class="input-group input-lg" style="border:1px solid #ccc; width:100%;">
+    <div class="input-group" style="border:1px solid #ccc; width:100%;">
 
-         <span class="input-group-addon" style="background:#fff; border:0;">
-         <i class="fa fa-search"></i>  </span>
-      <input type="text" style="border:0;" class="form-control" placeholder="Product name" aria-label="Product name">
+         <span class="input-group-addon" style="background:#fff; color:#333; border:0;">
+         <i class="fa fa-search text-muted"></i>  </span>
+      <input type="text" style="border:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
        
-       <span class="input-group-addon" style"background:green;">        
-                            <div class="row">
-                                <div class="col-md-12 p-0">
-                                    <div class="datepicker-container">
-                                        <div class="form-group">
-                                            <input type="text" style="border:none; width:100%; height:100%;" class="form-control date-picker" value="From" / data-datepicker-color="primary">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                                    </span>
+       <span class="input-group-addon p-0" style"background:#fff !important;">        
+<div class=" p-0" style="height:44px; margin:-1px; background:#fff; border-left:2px solid #ccc;">
+    <div class="datepicker-container">
+        <div class="form-group">
+            <input type="text" style="border:none; width:100%; height:100%; " class="form-control date-picker" value="From" / data-datepicker-color="neutral">
+        </div>
+    </div>
+</div>
+  </span>
 
-         <span class="input-group-addon" style"background:green;">        
-        <span style="width:100px; color:#fff;">Search</span>
-                                    </span>
+         <span class="input-group-addon pr-3">  Search </span>
     </div>
 
     <div class="row">
-        <div class="col-md-4"> 
+         <div class="col-md-4"> 
          <div><b>Popular</b></div>
         <div class="m-0 p-0"><a href="#" class="text-muted m-0"> London</a></div>
         <div class="m-0 p-0"><a href="#" class="text-muted"> Philadelphia </a></div>
         <div class="m-0 p-0"><a href="#" class="text-muted"> Nido West Hampstead </a></div>
-    
-
         </div>
+
         <div class="col-md-4">
         <div><b>Popular cities</b></div>    
-<div class="mb-1 p-0">
-    <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60">
-    <a href="#" class="text-muted m-0"> Lagos</a></div>
-   <div class="mb-1 p-0">
-       <a href="#" class="row text-muted m-0">
-        <div class="col-md-2"><img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"></div><div class="col-sm-8"> Enugu Nkanu</a></div></div>
-    <div class="mb-1 p-0"><a href="#" class="text-muted m-0">
-         <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"> test</a></div>
-    <div class="mb-1 p-0"><a href="#" class="text-muted m-0">
-         <img src="assets/img/avatar.jpg" class="img-rounded mr-2" height="60"> Alright</a></div>
+   <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
 
+  <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
 
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
 
         </div>
-        <div class="col-md-4">ok</div>
+
+        <div class="col-md-4">
+             <div class="mb-1"></div> 
+           <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+        </div>
     </div>
   </div>
 </div></li>
@@ -150,6 +192,59 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
                         </a>
                     </li>
                 </ul>
+
+
+
+
+
+<!--small device-->
+                <ul class="navbar-nav eyeball">
+                       <li class="nav-item p-0  mb-2">
+                        <a class="nav-link p-0" href="#">
+                        <b class="text-yellow" style="display:block;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none;
+    text-decoration-style: solid;">Nigeria Office</b>
+                       <b style="display:block; margin:-2px;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none; text-decoration-style: solid;"> +234 905 8920 982</b>
+                        </a>
+                    </li>
+
+ <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item ">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -169,7 +264,18 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
 
 </div>
 
-        <div class="col-12 col-md-12 sidebar-offcanvas" id="sidebar">
+<div class="dropdown no-show m-3">
+  <button class="btn btn-simple btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+  </div>
+</div>
+
+        <div class="col-12 col-md-12 sidebar-offcanvas show" id="sidebar">
           <div class="list-group">
             <a href="#" class="list-group-item active">Link</a>
             <a href="#" class="list-group-item">Link</a>
@@ -216,10 +322,10 @@ Start the search for your perfect student room now! As soon as you see something
 
         <section class="container p-3">
             <div class="row">
-         <div class="col-md-3 display-4">
+         <div class="col-md-3 col-sm-12 display-4">
 My padi
          </div>
- <div class="col-md-2">
+ <div class="col-md-2 col-sm-12">
      <ul class="nav-foot"> 
          <li>Company</li>
 
@@ -231,7 +337,7 @@ My padi
     </ul>
  </div>
 
-  <div class="col-md-2">
+  <div class="col-md-2  col-sm-12">
 <ul class="nav-foot"> 
          <li>Help</li>
 
