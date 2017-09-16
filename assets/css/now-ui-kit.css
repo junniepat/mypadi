@@ -4093,3 +4093,45 @@ display: block;
 
 
 
+
+
+
+   .houe-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.student{background-image:url(../img/0student.svg);}
+.nysc{background-image:url(../img/nysc.svg);}
+.landlord{background-image:url(../img/man.svg);}
+
+.houe-selector input:active +.housing{opacity: .9;}
+.houe-selector input:checked +.housing{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.housing{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:120px;height:90px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.housing:hover{
+    -webkit-filter: brightness(1.1) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.1) grayscale(.5) opacity(.9);
+            filter: brightness(1.1) grayscale(.5) opacity(.9);
+}
+
+/* Extras */
+a:visited{color:#888}
+a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
