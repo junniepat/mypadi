@@ -834,7 +834,7 @@
   line-height: 1.35em;
   font-weight: 700;
   border: none;
-  border-radius: 0.1875rem;
+  border-radius: 0;
   padding: 11px 22px;
   cursor: pointer;
   background-color: #B8B8B8;
@@ -928,12 +928,12 @@
 .btn-success {
   padding: .688rem 2.438rem;
   font-size:1.1em;
-  border-color: #38b2a6;
+  border-color:  #8cc43f;
     border-top-color: rgb(56, 178, 166);
     border-right-color: rgb(56, 178, 166);
     border-bottom-color: rgb(56, 178, 166);
     border-left-color: rgb(56, 178, 166);
-background-color: #38b2a6;
+background-color:  #8cc43f;
 color: #fff;
   color: #FFFFFF; }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success:active:focus, .btn-success:active:hover, .btn-success.active:focus, .btn-success.active:hover, .open > .btn-success.dropdown-toggle, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle:hover {
@@ -1582,6 +1582,8 @@ textarea.form-control:focus, textarea.form-control:active {
   color: #27AE60; }
 
 .badge-warning {
+  background: #FFB236;
+  color: #fff !important; 
   border-color: #FFB236;
   color: #FFB236; }
 
@@ -1769,7 +1771,7 @@ p.description {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Arial,'Open Sans', sans-serif;background:#f8f8f8;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
 
@@ -2052,7 +2054,7 @@ line-height: 1.5rem;
   background-color: #2CA8FF !important; }
 
 .bg-success {
-  background-color: #38b2a6 !important; }
+  background-color:  #8cc43f !important; }
 
 .bg-danger {
   background-color: #dd4b39 !important; }
@@ -3490,7 +3492,7 @@ Created using IcoMoon - icomoon.io
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
   .navbar-collapse:before {
-    background: #38b2a6;
+    background:  #8cc43f;
     display: block;
     content: "";
     position: absolute;
@@ -3992,18 +3994,18 @@ Created using IcoMoon - icomoon.io
 
 .list-group-item .active{
   background: transparent;
-  border-left:3px solid #38b2a6;
+  border-left:3px solid  #8cc43f;
   border-top:0;
   border-right:0;
   border-bottom:0;
-  color:#38b2a6;
+  color: #8cc43f;
 }
 
 .list-group .active{
    background: transparent;
-  border-left:3px solid #38b2a6; 
+  border-left:3px solid  #8cc43f; 
   border-top:0;
-  color: #38b2a6;
+  color:  #8cc43f;
   border-right:0;
   border-bottom:0;
 }
