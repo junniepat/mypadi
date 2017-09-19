@@ -1160,7 +1160,7 @@ color: #fff;
 .form-control {
   background-color: #fff;
   border: 2px solid #E3E3E3;
-  border-radius: 1px;
+  border-radius: 0;
   color: #2c2c2c;
   line-height: 1em;
   font-size: 0.8571em;
