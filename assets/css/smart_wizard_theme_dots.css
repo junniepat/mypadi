@@ -73,7 +73,6 @@
     border: none;
     text-decoration: none;
     outline-style: none;
-       border:2px solid #f2f2f2;
        background: #f2f2f2;
        color: #555;
        padding: 10px;
@@ -81,6 +80,8 @@
     display: block;
       margin: 15px;
       text-align: justify;
+      min-width: 120px;
+      text-align: center;
 }
 
 .sw-theme-dots > ul.step-anchor > li > a:first-child {
@@ -189,17 +190,23 @@
 /* Responsive CSS */
 @media screen and (max-width: 768px) {
   
-
+ .sw-theme-dots > ul.step-anchor{
+   padding: 0;
+   margin-bottom: 8px;
+    }
     .sw-theme-dots > ul.step-anchor > li {
-        margin-left: 20px;
+   
         display: block;
         clear: both;
+        width: 100%;
     }
 
     .sw-theme-dots > ul.step-anchor > li > a {
-        text-align: left;
-        margin-left: 0;
+        text-align: center;
+
         display: block;
+        width:100%;
+        margin: 0;
     }
 
     .sw-theme-dots > ul.step-anchor > li > a:before {
@@ -209,11 +216,16 @@
         display: block;
     }
 
-    .sw-theme-dots > ul.step-anchor > li > a:after {
+    .sw-theme-dots > ul.step-anchor > li.active > a::after {
+    content: "";
+    display: none;
+}
+
+    .sw-theme-dots > ul.step-anchor > li > a::after {
         top: -38px;
         left: -31px;
         margin-right: 10px;
-        display: block;
+        display: none;
     }
 }
 
