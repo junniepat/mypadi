@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Student Profile</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css" rel="stylesheet" />
+ <link href="assets/css/listproperty.css" rel="stylesheet" />
+   <link href="assets/css/smart_wizard.css" rel="stylesheet" type="text/css" />
+    
+    <link href="assets/css/smart_wizard_theme_dots.css" rel="stylesheet" type="text/css" />
+   
+
+       
+          <style>
+              .title{
+                  font-weight: 300;
+              }
+
+              .font-1_1{
+                  font-size:1.1em !important; 
+                  font-weight:300 !important;
+              }
+
+               .font-1_4{
+                  font-size:1.4em !important; 
+                  font-weight:400 !important;
+              }
+
+              .input-group{
+                  background:#fff; border:1px solid inherit; width:100%;
+              }
+              .input-group-addon{
+                  background:#fff; color:#333; border:0;
+              }
+
+              .nav-item .active{
+                  border: 3px solid #333;
+              }
+          </style>
+</head>
+
+<body class="login-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md bg-default fixed-top">
+        <div class="container">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+                <a class="navbar-brand m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
+                  <img src="assets/img/my-logo4.jpg" alt="Mypadi" height="50" width="150">
+                </a>
+            </div>
+
+               <div class="input-group mb-1">
+
+         <span class="mt-2 pt-1 ml-3">
+         <i class="fa fa-search text-muted"></i>  </span>
+      <input type="text" style="border:0; border-radius:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
+       
+       <div  class="input-group-addon okk p-0" style="height:44px; background:#fff; border-left:2px solid #ccc;">        
+
+    <select class="form-control custom-select" style="width:100%; border:1px solid #fff;">
+        <option selected>Student</option>
+    <option> Nysc</option>
+    </select>
+</div>
+           <button class="input-group-addon pr-3 fa fa-search" style="border:0; background:#fff !important;"> </button>
+    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+              
+
+ <ul class="navbar-nav">
+     <li class="nav-item">
+         
+     </li>
+                    <li class="nav-item">
+                        <li class="odropdown">
+          <a href="#" class="nav-link dropdown-toggle pt-2" data-toggle="dropdown">Search <span class="caret"></span></a>
+          <ul class="dropdown-menu ok" role="menu" style="width:100%;">
+            
+            <li><div class="row p-4">
+  <div class="container p-4 pr-5">
+    <div class="input-group" style="border:1px solid #ccc; width:100%;">
+
+         <span class="input-group-addon" style="background:#fff; color:#333; border:0;">
+         <i class="fa fa-search text-muted"></i>  </span>
+      <input type="text" style="border:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
+       
+       <span class="input-group-addon p-0" style"background:#fff !important;">        
+<div class=" p-0" style="height:44px; margin:-1px; background:#fff; border-left:2px solid #ccc;">
+    <div class="datepicker-container">
+        <div class="form-group">
+            <input type="text" style="border:none; width:100%; height:100%; " class="form-control date-picker" value="From" / data-datepicker-color="neutral">
+        </div>
+    </div>
+</div>
+  </span>
+
+         <span class="input-group-addon pr-3">  Search </span>
+    </div>
+
+    <div class="row">
+         <div class="col-md-4"> 
+         <div><b>Popular</b></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted m-0"> London</a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Philadelphia </a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Nido West Hampstead </a></div>
+        </div>
+
+        <div class="col-md-4">
+        <div><b>Popular cities</b></div>    
+   <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+  <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+        </div>
+
+        <div class="col-md-4">
+             <div class="mb-1"></div> 
+           <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+        </div>
+    </div>
+  </div>
+</div></li>
+          </ul>
+        </li>
+                    </li>
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <p>
+        Hi Profile
+    </p>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+
+                     
+                      <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <p>
+                                                        Help
+                                                    </p>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item p-0">
+                        <a class="nav-link p-0" href="#">
+                        <b class="text-yellow" style="display:block;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none;
+    text-decoration-style: solid;">Nigeria Office</b>
+                       <b style="display:block; margin:-2px;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none; text-decoration-style: solid;"> +234 905 8920 982</b>
+                        </a>
+                    </li>
+                </ul>
+
+
+
+
+
+<!--small device-->
+                <ul class="navbar-nav eyeball">
+                       <li class="nav-item p-0  mb-2">
+                        <a class="nav-link p-0" href="#">
+                        <b class="text-yellow" style="display:block;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none;
+    text-decoration-style: solid;">Nigeria Office</b>
+                       <b style="display:block; margin:-2px;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none; text-decoration-style: solid;"> +234 905 8920 982</b>
+                        </a>
+                    </li>
+
+ <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Account Settings</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Hostel</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Add Hostel</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Manage Users</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Logout</p>
+                                                </a>
+                                            </li>
+
+                                            
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container mt-5 pt-5">
+  <div class="row">
+        <div class="col-md-3 text-cen">
+<div class="col-sm-12 pl-4 pb-2 text-cen">
+<img src="assets/img/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-raised" height="108" width="108">
+<div class="col-sm-12 mt-2 text-left text-cen">
+<div class="font-1_4 pb-1 text-cen" style="font-size: 1.5rem;">Patrick</div>
+<div class="font-1_1 text-cen">patrickoigwe@gmail.com</div>
+<div class="font-1_1 text-cen">(+234) 9052478312</div>
+
+</div>
+
+</div>
+
+<div class="dropdown no-show m-3">
+  <button class="btn btn-simple btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+  </div>
+</div>
+
+        <div class="col-12 col-md-12 sidebar-offcanvas show" id="sidebar">
+          <div class="list-group">
+
+              
+            <a href="#" class="list-group-item active">Account Settings</a>
+            <a href="#" class="list-group-item">Hostel</a>
+            <a href="#" class="list-group-item">Add Hostel</a>
+            <a href="#" class="list-group-item">Manage users</a>
+            <a href="#" class="list-group-item">Logout</a>
+          </div>
+        </div><!--/span-->
+        </div>
+        
+        <div class="col-md-8">
+        <form action="#" id="myForm" class="card pt-0 pl-4 pr-4" style="padding-bottom:4em;" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+                    
+        <!-- SmartWizard html -->
+        <div id="smartwizard">
+            <ul>
+                <li><a href="#step-1">Step 1<br /><small>Email Address</small></a></li>
+                <li><a href="#step-2">Step 2<br /><small>Name</small></a></li>
+                <li><a href="#step-3">Step 3<br /><small>Address</small></a></li>
+                <li><a href="#step-4">Step 4<br /><small>Terms and Conditions</small></a></li>
+            </ul>
+            
+            <div>
+                <div id="step-1">
+
+<div class="clearfix"></div>
+     <div id="form-step-0" role="form" data-toggle="validator">
+<div class="form-group mt-1 pt-3">
+    <div class="row">
+          <div class="col-sm-12"></div>
+         <div class="col-md-3"> <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Student</span>
+</label></div>
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Nysc</span>
+</label></div>
+
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Both</span>
+</label></div>
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Other</span>
+</label></div>
+
+</div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-9 col-sm-6 col-xs-12 form-group">
+    <label for="formGroupExampleInput">Hostel Name*</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label for="Input">House Number</label>
+    <input type="number" class="form-control" id="Input" placeholder="Another input">
+  </div>
+ 
+</div>
+
+<div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Street Name</label>
+    <input type="text" class="form-control" id="Input" placeholder="Another input">
+  </div>
+
+  <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+    <label for="formGroupExampleInput">Area/city</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+
+</div>
+
+<div class="form-group">
+    <div class="row">
+          <div class="col-sm-12"></div>
+
+         <div class="col-md-3"> <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Agent</span>
+</label></div>
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Landlord</span>
+</label></div>
+
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Caretaker</span>
+</label></div>
+<div class="col-md-3">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Others</span>
+</label></div>
+
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="formGroupExampleInput">Full Name*</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Email Address</label>
+    <input type="email" class="form-control" id="Input" placeholder="Another input">
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Phone Number</label>
+    <input type="number" class="form-control" name="email" id="email" placeholder="Another input">
+  </div>
+</div>
+
+
+               
+                    </div>
+                    
+                </div>
+                <div id="step-2">
+                   <div class="clearfix"></div>
+                    <div id="form-step-1" role="form" data-toggle="validator">
+   <div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="formGroupExampleInput">Closest School to hostel</label>
+    <input type="text"  name="name" id="email" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Proximity to school</label>
+    <input type="text"  name="name" id="email" class="form-control" id="Input" placeholder="Another input" required>
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Transportation</label>
+    <input type="text" class="form-control" id="Input" placeholder="Another input">
+  </div>
+</div>
+
+
+<div class="row">
+<div class="col-md-6">
+    <select class="custom-select form-control col-md-12">
+  <option selected>Key Place</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+</div>
+
+<div class="col-md-6">
+    <select class="custom-select form-control col-md-12">
+  <option selected>Amenities</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+</div>
+</div>
+
+
+                      
+                    </div>
+                </div>
+                <div id="step-3">
+                    <h2>Your Address</h2>
+                    <div id="form-step-2" role="form" data-toggle="validator">
+<div class="row">
+<div class="col-md-6">
+      <label for="">Room Type</label>
+    <select class="custom-select form-control col-md-12" required>
+  <option selected>Single Room</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+</div>
+
+ <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label for="Input">No. of Bed Spaces</label>
+    <input type="number" class="form-control" id="Input" placeholder="Another input">
+  </div>
+
+   <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label for="Input">No. of Rooms</label>
+    <input type="number" class="form-control" id="Input" placeholder="Another input">
+  </div>
+</div>
+
+<div class="row">
+
+ <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Rules</label>
+    <select class="custom-select form-control col-md-12">
+  <option selected>No Pets</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+  </div>
+
+   <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Curfew Time</label>
+    <input type="number" class="form-control" id="Input" placeholder="Another input">
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Preferred gender</label>
+    <select class="custom-select form-control col-md-12">
+  <option selected>Male</option>
+  <option value="1">Female</option>
+</select>
+  </div>
+</div>
+
+  <div class="col-md-12 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Specify Oher Hostel Rules</label>
+  <textarea class="form-control" placeholder="Describe How Hostel Looks Like"></textarea>
+</div>
+
+<div class="col-md-12 pl-0 mb-1">Payment Schedule</div>
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+<div class="row pl-1">
+<div class="col-md-1 m-0" style="border:2px solid #ccc;">ok</div>
+<div class="col-md-9 m-0"><input type="text" class="form-control" placeholder="3,000"></div>
+<div class="col-md-2 m-0" style="border:2px solid #ccc;">ok</div>
+</div>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+    
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+    
+  </div>
+</div>
+
+<div class="col-md-12 pl-0 mb-1">Payment Details</div>
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+<div class="row pl-1">
+<div class="col-md-1 m-0" style="border:2px solid #ccc;">ok</div>
+<div class="col-md-9 m-0"><input type="text" class="form-control" placeholder="3,000"></div>
+<div class="col-md-2 m-0" style="border:2px solid #ccc;">ok</div>
+</div>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+    
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">First Year</label>
+    
+  </div>
+</div>
+                    
+                    </div>
+                </div>
+                <div id="step-4" class="">
+                    <h2>Terms and Conditions</h2>
+                    <p>
+                        Terms and conditions: Keep your smile :) 
+                    </p>
+                    <div id="form-step-3" role="form" data-toggle="validator">
+                        <div class="form-group">
+                            <label for="terms">I agree with the T&C</label>
+                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>  
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+        </form>
+        </div>
+  </div>
+        
+    </div>
+    
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include jQuery Validator plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+    
+
+    <!-- Include SmartWizard JavaScript source -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            
+            // Toolbar extra buttons
+            var btnFinish = $('<button></button>').text('Submit')
+                                             .addClass('btn btn-success mr-3')
+                                             .on('click', function(){ 
+                                                    if( !$(this).hasClass('disabled')){ 
+                                                        var elmForm = $("#step-4");
+                                                        if(elmForm){
+                                                            elmForm.validator('validate'); 
+                                                            var elmErr = elmForm.find('.has-error');
+                                                            if(elmErr && elmErr.length > 0){
+                                                                alert('Oops we still have error in the form');
+                                                                return false;    
+                                                            }else{
+                                                                alert('Great! we are ready to submit form');
+                                                                elmForm.submit();
+                                                                return false;
+                                                            }
+                                                        }
+                                                    }
+                                                });
+            var btnCancel = $('').text('s')
+                                             .addClass('')
+                                             .on('click', function(){ 
+                                                    $('#smartwizard').smartWizard("reset"); 
+                                                    $('#myForm').find("input, textarea").val(""); 
+                                                });                         
+            
+            
+            
+            // Smart Wizard
+            $('#smartwizard').smartWizard({ 
+                    selected: 0, 
+                    theme: 'dots',
+                    transitionEffect:'fade',
+                    toolbarSettings: {toolbarPosition: 'bottom',
+                                      toolbarExtraButtons: [btnFinish, btnCancel]
+                                    },
+                    anchorSettings: {
+                                markDoneStep: true, // add done css
+                                markAllPreviousStepsAsDone: true, // When a step selected by url hash, all previous steps are marked done
+                                removeDoneStepOnNavigateBack: true, // While navigate back done step after active step will be cleared
+                                enableAnchorOnDoneStep: true // Enable/Disable the done steps navigation
+                            }
+                 });
+            
+            $("#smartwizard").on("leaveStep", function(e, anchorObject, stepNumber, stepDirection) {
+                var elmForm = $("#form-step-" + stepNumber);
+                // stepDirection === 'forward' :- this condition allows to do the form validation 
+                // only on forward navigation, that makes easy navigation on backwards still do the validation when going next
+                if(stepDirection === 'forward' && elmForm){
+                    elmForm.validator('validate'); 
+                    var elmErr = elmForm.children('.has-error');
+                    if(elmErr && elmErr.length > 0){
+                        // Form validation failed
+                        return false;    
+                    }
+                }
+                return true;
+            });
+            
+            $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection) {
+                // Enable finish button only on last step
+                if(stepNumber == 3){ 
+                    $('.btn-finish').removeClass('disabled');  
+                }else{
+                    $('.btn-finish').addClass('disabled');
+                }
+            });                               
+            
+        });   
+    </script>  
+</body>
+</html>
