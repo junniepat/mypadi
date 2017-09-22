@@ -31,6 +31,18 @@
                   font-weight:300 !important;
               }
 
+              .borderrd{
+                  text-align:center !important;
+                  border-top:2px solid #f2f2f2;
+                  border-right:2px solid #f2f2f2;
+                  border-bottom:2px solid #f2f2f2;
+                  border-left:2px solid #f2f2f2;
+                  padding-top: 3px ;
+                  padding-left:-15px;
+                  display:none;
+                  width:20px !important;
+              }
+
                .font-1_4{
                   font-size:1.4em !important; 
                   font-weight:400 !important;
@@ -496,9 +508,11 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
                     </div>
                 </div>
                 <div id="step-3">
-                    <h2>Your Address</h2>
+                   
                     <div id="form-step-2" role="form" data-toggle="validator">
-<div class="row">
+                        <br>
+                        <div class="clearfix"></div>
+<div class="row mt-1">
 <div class="col-md-6">
       <label for="">Room Type</label>
     <select class="custom-select form-control col-md-12" required>
@@ -537,7 +551,7 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
     <input type="number" class="form-control" id="Input" placeholder="Another input">
   </div>
 
-  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+  <div class="col-md-4 col-sm-12 col-xs-12 form-group">
     <label for="Input">Preferred gender</label>
     <select class="custom-select form-control col-md-12">
   <option selected>Male</option>
@@ -546,7 +560,7 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
   </div>
 </div>
 
-  <div class="col-md-12 col-sm-6 col-xs-12 form-group">
+  <div class="col-md-12 col-sm-12 p-0 col-xs-12 form-group">
     <label for="Input">Specify Oher Hostel Rules</label>
   <textarea class="form-control" placeholder="Describe How Hostel Looks Like"></textarea>
 </div>
@@ -556,59 +570,75 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
   <div class="col-md-4 col-sm-6 col-xs-12 form-group">
     <label for="Input">First Year</label>
 <div class="row pl-1">
-<div class="col-md-1 m-0" style="border:2px solid #ccc;">ok</div>
-<div class="col-md-9 m-0"><input type="text" class="form-control" placeholder="3,000"></div>
-<div class="col-md-2 m-0" style="border:2px solid #ccc;">ok</div>
+<div class="col-md-1 m-0 borderrd" ><i class="fa fa-money"></i></div>
+<div class="col-md-8 p-0 m-0"><input class="form-control" placeholder="3,000" type="text"></div>
+<div class="col-md-2 m-0 borderrd">.00</div>
 </div>
   </div>
 
   <div class="col-md-4 col-sm-6 col-xs-12 form-group">
-    <label for="Input">First Year</label>
-    
+    <label for="Input">Subsequent Years*</label>
+    <div class="row pl-1">
+<div class="col-md-1 m-0 borderrd" ><i class="fa fa-money"></i></div>
+<div class="col-md-8 p-0 m-0"><input class="form-control" placeholder="3,000" type="text"></div>
+<div class="col-md-2 m-0 borderrd">.00</div>
+</div>
   </div>
 
-  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
-    <label for="Input">First Year</label>
-    
+  <div class="col-md-4 col-sm-12 col-xs-12 form-group">
+    <label for="Input">Duration</label>
+    <div class="row pl-1">
+<div class="col-md-1 m-0 pl-1 pr-1 borderrd" ><i class="fa fa-user"></i></div>
+<div class="col-md-8 p-0 m-0"><input class="form-control" placeholder="3,000" type="text"></div>
+<div class="col-md-2 m-0 pl-0 borderrd">Mth</div>
+</div>
   </div>
 </div>
 
 <div class="col-md-12 pl-0 mb-1">Payment Details</div>
 <div class="row">
   <div class="col-md-4 col-sm-6 col-xs-12 form-group">
-    <label for="Input">First Year</label>
+    <label for="Input">Bank*</label>
 <div class="row pl-1">
-<div class="col-md-1 m-0" style="border:2px solid #ccc;">ok</div>
-<div class="col-md-9 m-0"><input type="text" class="form-control" placeholder="3,000"></div>
-<div class="col-md-2 m-0" style="border:2px solid #ccc;">ok</div>
+<div class="col-md-1 m-0 borderrd" ><i class="fa fa-bank"></i></div>
+<div class="col-md-10 p-0 m-0">
+    <select class="form-control custom-select">
+<option selected>Access bank</option>
+<option >Diamond Bank</option>
+        </select>
+</div>
+
+</div>
+  </div>
+
+  <div class="col-md-4 col-sm-12 col-xs-12 form-group">
+    <label for="Input">Account Name*</label>
+    <div class="row pl-1">
+<div class="col-md-1 m-0 borderrd"><i class="fa fa-user"></i></div>
+<div class="col-md-10 p-0 m-0"><input class="form-control" type="text"></div>
+
 </div>
   </div>
 
   <div class="col-md-4 col-sm-6 col-xs-12 form-group">
-    <label for="Input">First Year</label>
-    
-  </div>
+    <label for="Input">Account Number*</label>
+    <div class="row pl-1">
+<div class="col-md-1 m-0 borderrd"><i class="fa fa-user"></i></div>
+<div class="col-md-10 p-0 m-0"><input class="form-control" type="text"></div>
 
-  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
-    <label for="Input">First Year</label>
-    
+</div>
   </div>
 </div>
                     
                     </div>
                 </div>
-                <div id="step-4" class="">
-                    <h2>Terms and Conditions</h2>
-                    <p>
-                        Terms and conditions: Keep your smile :) 
-                    </p>
-                    <div id="form-step-3" role="form" data-toggle="validator">
-                        <div class="form-group">
-                            <label for="terms">I agree with the T&C</label>
-                            <input type="checkbox" id="terms" data-error="Please accept the Terms and Conditions" required>  
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
+                <div id="step-4" class="text-center"><br>
+
+                <h5 class="mt-5 content-empty__heading mb-4 pt-5">
+        Hostel Successfully Added
+    </h5>
+
+                    
                     
                     
                 </div>
