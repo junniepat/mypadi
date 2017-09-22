@@ -189,7 +189,9 @@
 
 /* Responsive CSS */
 @media screen and (max-width: 768px) {
-  
+  #smartwizard ul li small{
+      display: none;
+  }
  .sw-theme-dots > ul.step-anchor{
    padding: 0;
    margin-bottom: 8px;
