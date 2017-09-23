@@ -2017,6 +2017,11 @@ line-height: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   line-height: 1.625rem; }
+
+.navbar .navbar-brand img{
+  width:150px !important;
+  height:50px;
+}
 .navbar .navbar-toggler {
   width: 37px;
   height: 27px;
@@ -3468,6 +3473,11 @@ Created using IcoMoon - icomoon.io
   .text-cen{
     text-align:center;
   }
+
+  .navbar .navbar-brand img{
+  width:100px !important;
+  height:50px;
+}
   .navbar-collapse {
     position: fixed;
     display: block;
