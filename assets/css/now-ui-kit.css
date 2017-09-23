@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|PT+Sans|Raleway|Roboto');
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -611,6 +613,7 @@
   position: relative;
   cursor: pointer; }
 
+
 .datepicker th {
   color: #3b5998; }
 
@@ -928,16 +931,16 @@
 .btn-success {
   padding: .688rem 2.438rem;
   font-size:1.1em;
-  border-color:  #195c5a;
+  border-color:  #8cc43f;
     border-top-color: rgb(56, 178, 166);
     border-right-color: rgb(56, 178, 166);
     border-bottom-color: rgb(56, 178, 166);
     border-left-color: rgb(56, 178, 166);
-background-color:  #195c5a;
+background-color:#8cc43f ; 
 color: #fff;
   color: #FFFFFF; }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success:active:focus, .btn-success:active:hover, .btn-success.active:focus, .btn-success.active:hover, .open > .btn-success.dropdown-toggle, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle:hover {
-  background-color: #38b2a9;
+  background-color: #195c5a;
   color: #FFFFFF; }
 .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success:disabled, .btn-success:disabled:hover, .btn-success:disabled:focus, .btn-success:disabled.focus, .btn-success:disabled:active, .btn-success:disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
   background-color: #27AE60;
@@ -1159,7 +1162,7 @@ color: #fff;
 
 .form-control {
   background-color: #fff;
-  border: 2px solid #E3E3E3;
+  border: 1px solid #ccc;
   border-radius: 0;
   color: #2c2c2c;
   line-height: 1em;
@@ -1174,7 +1177,7 @@ color: #fff;
 .has-success .form-control {
   border-color: #E3E3E3; }
 .form-control:focus {
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0 !important;
@@ -1732,7 +1735,12 @@ p.description {
   color: #2CA8FF !important; }
 
 .text-success {
-  color: #27AE60 !important; }
+  color: #8cc43f !important; }
+
+.text-bold {
+  font-weight:500;
+  font-size:1.1em;
+}
 
 .text-warning {
   color: #FFB236 !important; }
@@ -1769,7 +1777,8 @@ p.description {
 body {
   color: #2c2c2c;
   font-size: 14px;
-  font-family: "Montserrat", "Helvetica Neue", Arial,'Open Sans', sans-serif;background:#f8f8f8;
+    font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', 'PT Sans', sans-serif;
+  background:#FFFFF7 !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
 
@@ -2052,7 +2061,7 @@ line-height: 1.5rem;
   background-color: #2CA8FF !important; }
 
 .bg-success {
-  background-color:  #195c5a !important; }
+  background-color:  #8cc43f !important; }
 
 .bg-danger {
   background-color: #dd4b39 !important; }
@@ -2881,7 +2890,7 @@ Created using IcoMoon - icomoon.io
   overflow: hidden;
   width: 100%;
   margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); */}
+  /*box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); */}
 .card .card-block {
   min-height: 190px; }
 .card[data-background-color="orange"] {
@@ -3490,7 +3499,7 @@ Created using IcoMoon - icomoon.io
     -ms-transform: translate3d(0px, 0, 0);
     transform: translate3d(0px, 0, 0); }
   .navbar-collapse:before {
-    background:  #195c5a;
+    background:  #8cc43f;
     display: block;
     content: "";
     position: absolute;
@@ -3992,18 +4001,18 @@ Created using IcoMoon - icomoon.io
 
 .list-group-item .active{
   background: transparent;
-  border-left:3px solid  #195c5a;
+  border-left:3px solid  #8cc43f;
   border-top:0;
   border-right:0;
   border-bottom:0;
-  color: #195c5a;
+  color: #8cc43f;
 }
 
 .list-group .active{
    background: transparent;
-  border-left:3px solid  #195c5a; 
+  border-left:3px solid  #8cc43f; 
   border-top:0;
-  color:  #195c5a;
+  color:  #8cc43f;
   border-right:0;
   border-bottom:0;
 }

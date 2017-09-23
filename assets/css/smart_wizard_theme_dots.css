@@ -135,7 +135,7 @@
 }
 /* Active anchors */
 .sw-theme-dots > ul.step-anchor > li.active > a {
-       background:#5cb85c ;
+       background:#8cc43f ;
        min-width: 120px;
        text-align: center;
        color:#fff;
@@ -146,12 +146,12 @@
   content: "";
   display: block; /* reduce the damage in FF3.0 */
   position: absolute;
-  bottom: -15px;
-  left: 43px;
+  bottom: -9px;
+  left: 45%;
   width: 0;
-  border-width: 15px 15px 0;
+  border-width: 10px 10px 0;
   border-style: solid;
-  border-color: #5cb85c transparent;
+  border-color: #8cc43f transparent;
 }
 
 
@@ -162,11 +162,11 @@
 
 /* Done anchors */
 .sw-theme-dots > ul.step-anchor > li.done > a {
-    color: #5cb85c;
+    color: #8cc43f;
 }
 
 .sw-theme-dots > ul.step-anchor > li.done > a:after {
-    background: #5cb85c;
+    background: #8cc43f;
 }
 /* Danger anchors */
 .sw-theme-dots > ul.step-anchor > li.danger > a {
