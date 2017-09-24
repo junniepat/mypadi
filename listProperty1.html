@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Student Profile</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css" rel="stylesheet" />
+    <link href="assets/css/list.css" rel="stylesheet" />
+       
+          <style>
+              .title{
+                  font-weight: 300;
+              }
+
+              .font-1_1{
+                  font-size:1.1em !important; 
+                  font-weight:300 !important;
+              }
+
+              .borderrd{
+                  text-align:center !important;
+                  border-top:2px solid #f2f2f2;
+                  border-right:2px solid #f2f2f2;
+                  border-bottom:2px solid #f2f2f2;
+                  border-left:2px solid #f2f2f2;
+                  padding-top: 3px ;
+                  padding-left:-15px;
+                  display:none;
+                  width:20px !important;
+              }
+
+               .font-1_4{
+                  font-size:1.4em !important; 
+                  font-weight:400 !important;
+              }
+
+              .input-group{
+                  background:#fff; border:1px solid inherit; width:100%;
+              }
+              .input-group-addon{
+                  background:#fff; color:#333; border:0;
+              }
+
+              .nav-item .active{
+                  border: 3px solid #333;
+              }
+          </style>
+</head>
+
+<body class="login-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md bg-default fixed-top">
+        <div class="container">
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+                <a class="navbar-brand m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
+                  <img src="assets/img/my-logo4.jpg" alt="Mypadi" style="height:50px; width:50px;">
+                </a>
+            </div>
+
+               <div class="input-group mb-1">
+
+         <span class="mt-2 pt-1 ml-3">
+         <i class="fa fa-search text-muted"></i>  </span>
+      <input type="text" style="border:0; border-radius:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
+       
+       <div  class="input-group-addon okk p-0" style="height:44px; background:#fff; border-left:2px solid #ccc;">        
+
+    <select class="form-control custom-select" style="width:100%; border:1px solid #fff;">
+        <option selected>Student</option>
+    <option> Nysc</option>
+    </select>
+</div>
+           <button class="input-group-addon pr-3 fa fa-search" style="border:0; background:#fff !important;"> </button>
+    </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
+              
+
+ <ul class="navbar-nav">
+     <li class="nav-item">
+         
+     </li>
+                    <li class="nav-item">
+                        <li class="odropdown">
+          <a href="#" class="nav-link dropdown-toggle pt-2" data-toggle="dropdown">Search <span class="caret"></span></a>
+          <ul class="dropdown-menu ok" role="menu" style="width:100%;">
+            
+            <li><div class="row p-4">
+  <div class="container p-4 pr-5">
+    <div class="input-group" style="border:1px solid #ccc; width:100%;">
+
+         <span class="input-group-addon" style="background:#fff; color:#333; border:0;">
+         <i class="fa fa-search text-muted"></i>  </span>
+      <input type="text" style="border:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
+       
+       <span class="input-group-addon p-0" style"background:#fff !important;">        
+<div class=" p-0" style="height:44px; margin:-1px; background:#fff; border-left:2px solid #ccc;">
+    <div class="datepicker-container">
+        <div class="form-group">
+            <input type="text" style="border:none; width:100%; height:100%; " class="form-control date-picker" value="From" / data-datepicker-color="neutral">
+        </div>
+    </div>
+</div>
+  </span>
+
+         <span class="input-group-addon pr-3">  Search </span>
+    </div>
+
+    <div class="row">
+         <div class="col-md-4"> 
+         <div><b>Popular</b></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted m-0"> London</a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Philadelphia </a></div>
+        <div class="m-0 p-0"><a href="#" class="text-muted"> Nido West Hampstead </a></div>
+        </div>
+
+        <div class="col-md-4">
+        <div><b>Popular cities</b></div>    
+   <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+  <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+        </div>
+
+        <div class="col-md-4">
+             <div class="mb-1"></div> 
+           <div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+
+<div class="col-md-12 m-1 pl-0">
+    <div class="row">
+    <div class="col-md-3"><img src="assets/img/avatar.jpg" width="100%" height="100%"></div>
+    <div class="col-md-9 pl-0"><h5 class="font-1_4 mb-0">Lagos</h5> Nigeria</div>
+    </div>
+</div>
+        </div>
+    </div>
+  </div>
+</div></li>
+          </ul>
+        </li>
+                    </li>
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <p>
+        Hi Profile
+    </p>
+</a>
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+
+                     
+                      <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <p>
+                                                        Help
+                                                    </p>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <a class="dropdown-item" href="#">Action</a>
+                                                    <a class="dropdown-item" href="#">Another action</a>
+                                                    <a class="dropdown-item" href="#">Something else here</a>
+                                                </div>
+                                            </li>
+
+                                            <li class="nav-item p-0">
+                        <a class="nav-link p-0" href="#">
+                        <b class="text-yellow" style="display:block;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none;
+    text-decoration-style: solid;">Nigeria Office</b>
+                       <b style="display:block; margin:-2px;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none; text-decoration-style: solid;"> +234 905 8920 982</b>
+                        </a>
+                    </li>
+                </ul>
+
+
+
+
+
+<!--small device-->
+                <ul class="navbar-nav eyeball">
+                       <li class="nav-item p-0  mb-2">
+                        <a class="nav-link p-0" href="#">
+                        <b class="text-yellow" style="display:block;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none;
+    text-decoration-style: solid;">Nigeria Office</b>
+                       <b style="display:block; margin:-2px;font-weight: 500;
+display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none; text-decoration-color: -moz-use-text-color; text-decoration-line: none; text-decoration-style: solid;"> +234 905 8920 982</b>
+                        </a>
+                    </li>
+
+ <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Account Settings</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Hostel</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Add Hostel</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Manage Users</p>
+                                                </a>
+                                            </li>
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Logout</p>
+                                                </a>
+                                            </li>
+
+                                            
+
+                                             <li class="nav-item active">
+                                                <a class="nav-link" href="#">
+                                                    <p>Link</p>
+                                                </a>
+                                            </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container mt-5 pt-5">
+  <div class="row">
+        <div class="col-md-3 text-cen">
+<div class="col-sm-12 pl-4 pb-2 text-cen">
+<img src="assets/img/avatar.jpg" alt="Thumbnail Image" class="rounded-circle img-raised" height="108" width="108">
+<div class="col-sm-12 mt-2 text-left text-cen">
+<div class="font-1_4 pb-1 text-cen" style="font-size: 1.5rem;">Patrick</div>
+<div class="font-1_1 text-cen">patrickoigwe@gmail.com</div>
+<div class="font-1_1 text-cen">(+234) 9052478312</div>
+
+</div>
+
+</div>
+
+<div class="dropdown no-show m-3">
+  <button class="btn btn-simple btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu
+  </button>
+  <div class="dropdown-menu col-md-12" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+    <a class="dropdown-item" href="#">Link</a>
+  </div>
+</div>
+
+        <div class="col-12 col-md-12 sidebar-offcanvas show" id="sidebar">
+          <div class="list-group">
+
+              
+            <a href="#" class="list-group-item ">Account Settings</a>
+            <a href="#" class="list-group-item">Hostel</a>
+            <a href="#" class="list-group-item active">Add Hostel</a>
+            <a href="#" class="list-group-item">Manage users</a>
+            <a href="#" class="list-group-item">Logout</a>
+          </div>
+        </div><!--/span-->
+        </div>
+        
+        <div class="col-md-8">
+<div class="row mb-1 mt-1">
+<div class="col-md-3 col-sm-12 dots-on"><span class="icons now-ui-icons business_badge"></span> Step 1 <small>Basic Information</small></div>
+<div class="col-md-3 col-sm-12 dots-off"><span class="icons now-ui-icons business_badge"></span>Step 2 <small>Amenities</small></div>
+<div class="col-md-3 col-sm-12 dots-off"><span class="icons now-ui-icons business_badge"></span>Step 3  <small>Room Specifications</small></div>
+<div class="col-md-3 col-sm-12  dots-off"><span class="icons now-ui-icons business_bank"></span>Step 4 <small>All Done</small></div>
+</div>
+
+        <form action="#" id="myForm" class="card" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+            
+<div class="clearfix"></div>
+     <div id="form-step-0" role="form" data-toggle="validator">
+<div class="form-group mt-1 pt-3">
+    <div class="row">
+          <div class="col-sm-12 titler text-success">Who's this hostel best suited for?</div>
+         <div class="col-md-3 col-sm-6"> <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Student</span>
+</label></div>
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">NYSC</span>
+</label></div>
+
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Both</span>
+</label></div>
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Other</span>
+</label></div>
+
+</div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-9 col-sm-6 col-xs-12 form-group">
+    <label for="HostelName">Hostel Name*</label>
+    <input type="text" class="form-control" id="HostelName" placeholder="Hostel Name">
+  </div>
+  <div class="col-md-3 col-sm-6 col-xs-12 form-group">
+    <label for="Input">House Number</label>
+    <input type="number" class="form-control" id="Input" placeholder="House Number">
+  </div>
+ 
+</div>
+
+<div class="row">
+     <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Street Name</label>
+    <input type="text" class="form-control" id="Input" placeholder="Street Name">
+  </div>
+
+  <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+    <label for="Area/city">Area/City</label>
+    <input type="text" class="form-control" id="Area/city" placeholder="Area/City">
+  </div>
+
+</div>
+
+ <div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="formGroupExampleInput">Closest School to hostel</label>
+    <input type="text"  name="name" id="email" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Proximity to school</label>
+    <input type="text"  name="name" id="email" class="form-control" id="Input" placeholder="Another input" required>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12 form-group">
+    <label for="Input">Transportation</label>
+    <input type="text" class="form-control" id="Input" placeholder="Another input">
+  </div>
+</div>
+
+<div class="form-group">
+    <div class="row">
+          <div class="col-sm-12">Primary Contact</div>
+
+         <div class="col-md-3 col-sm-6"> <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Agent</span>
+</label></div>
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Landlord</span>
+</label></div>
+
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Caretaker</span>
+</label></div>
+<div class="col-md-3 col-sm-6">
+<label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Others</span>
+</label></div>
+
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="FullName">Full Name*</label>
+    <input type="text" class="form-control" id="FullName" placeholder="Full Name">
+  </div>
+  <div class="col-md-4 col-sm-6 col-xs-12 form-group">
+    <label for="Input">Email Address</label>
+    <input type="email" class="form-control" id="Input" placeholder="Email Address">
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12 form-group">
+    <label for="Input">Phone Number</label>
+    <input type="number" class="form-control" id="number" placeholder="Phone Number">
+  </div>
+</div>
+
+
+               
+                    </div>
+                    
+            
+                 <div class="row">
+                 <div class="col-md-4 pull-left">
+                  <button class="btn btn-simple">Previous</button>
+</div>
+                  <div class="col-md-8 pull-right text-right">
+                      <a href="listProperty2.html" class="btn btn-simple">Next</a>
+                   <button class="btn btn-success">Save</button>
+                 
+                 </div>
+                 
+                 </div>
+             
+        
+        </form>
+        </div>
+  </div>
+        
+    </div>
+    
+    <!-- Include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include jQuery Validator plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+    
+
+    <!-- Include SmartWizard JavaScript source -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+
+ 
+</body>
+</html>
