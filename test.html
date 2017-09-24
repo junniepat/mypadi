@@ -357,10 +357,10 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
 <div class="col-md-12 p-0 mb-2 heroo0">
   
     <div class="form-group">
-      <label for="maxOption2" class="col-sm-2 p-0 control-label">Key Places</label>
+      <label for="maxOption2" class="col-lg-2 control-label">Key Places</label>
 
-      <div class="col-sm-12 p-0">
-        <select id="maxOption2" class="selectpicker form-control" multiple data-max-options="10">
+      <div class="col-sm-12">
+        <select id="maxOption2" class="selectpicker show-menu-arrow form-control" multiple data-max-options="10" style="z-index:100000000;">
           <option>Hospital</option>
           <option>Church</option>
           <option>goose</option>
@@ -375,10 +375,10 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
 <div class="col-md-12 p-0">
    
     <div class="form-group">
-      <label for="maxOption2" class="col-sm-12 p-0 control-label">Amenities</label>
+      <label for="maxOption2" class="col-lg-2 control-label">Amenities</label>
 
-      <div class="col-md-12 heroo p-0">
-        <select id="maxOption2" class="selectpicker form-control" multiple data-max-options="10">
+      <div class="col-md-12 heroo">
+        <select id="maxOption2" class="selectpicker show-menu-arrow form-control" multiple data-max-options="10">
           <option>Hospital</option>
           <option>Church</option>
           <option>goose</option>
@@ -574,7 +574,26 @@ window.onclick = function(event) {
 
 
 
+<script>
+  $(document).ready(function () {
+    var mySelect = $('#first-disabled2');
 
+    $('#special').on('click', function () {
+      mySelect.find('option:selected').prop('disabled', true);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#special2').on('click', function () {
+      mySelect.find('option:disabled').prop('disabled', false);
+      mySelect.selectpicker('refresh');
+    });
+
+    $('#basic2').selectpicker({
+      liveSearch: true,
+      maxOptions: 1
+    });
+  });
+</script>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
