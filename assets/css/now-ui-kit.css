@@ -2017,14 +2017,15 @@ line-height: 1.5rem;
   font-size: 0.8571em;
   padding-top: 0.5rem;
   text-align:center;
-  margin-right:10px !important;
+  padding-right:50px;
   padding-bottom: 0.5rem;
+  margin-right:100px;
   line-height: 1.625rem; }
 
 .navbar .navbar-brand img{
-  width:200px !important;
+  width:180px !important;
   height:40px;
-  margin-right:50px;
+  
 }
 .navbar .navbar-toggler {
   width: 37px;
