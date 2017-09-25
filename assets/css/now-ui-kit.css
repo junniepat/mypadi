@@ -1184,7 +1184,7 @@ color: #fff;
   outline: 0 !important;
   color: #2c2c2c; }
 .form-control:focus + .input-group-addon, .form-control:focus ~ .input-group-addon {
-  
+  background: #ccc;
   border-left: none; }
 .has-success .form-control, .has-error .form-control, .has-success .form-control:focus, .has-error .form-control:focus {
   -webkit-box-shadow: none;
@@ -1209,7 +1209,7 @@ color: #fff;
   border-radius: 0.25rem 0.25rem 0 0;
   border-bottom-color: transparent; }
 .form-control + .input-group-addon {
-  background-color: #;
+  background-color: #ccc;
   color:#fff !important; }
 
 .has-success:after, .has-danger:after {
@@ -2022,8 +2022,9 @@ line-height: 1.5rem;
   line-height: 1.625rem; }
 
 .navbar .navbar-brand img{
-  width:150px !important;
-  height:50px;
+  width:200px !important;
+  height:40px;
+  margin-right:50px;
 }
 .navbar .navbar-toggler {
   width: 37px;
@@ -3568,6 +3569,8 @@ Created using IcoMoon - icomoon.io
     color: #FFFFFF; }
   .navbar .navbar-translate {
     width: 100%;
+    margin-right:20px;
+    display:block;
     position: relative;
     -webkit-transform: translate3d(0px, 0, 0);
     -moz-transform: translate3d(0px, 0, 0);
@@ -3894,6 +3897,7 @@ Created using IcoMoon - icomoon.io
 
   .no-show{
     display:block;
+    z-index: 1000;
   }
 
   .mega{
