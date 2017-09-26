@@ -852,7 +852,7 @@
   box-shadow: none; }
 .btn.btn-simple {
   color: #B8B8B8;
-  padding: 11.2px;
+  padding: 11.5px;
   border-color: #B8B8B8; }
 .btn.btn-simple:hover, .btn.btn-simple:focus, .btn.btn-simple:active {
   background-color: #FFFFF7;
@@ -1279,6 +1279,13 @@ color: #fff;
 .has-success .form-control-feedback, .has-success .control-label {
   color: #27AE60; }
 
+.pull-right{
+  float:right;
+}
+
+.pull-left{
+  float:left;
+}
 .input-group-addon {
   background-color: #333;
   border: 1px solid #333;
@@ -3480,15 +3487,34 @@ Created using IcoMoon - icomoon.io
   }
 
   .navbar .navbar-brand img{
-  width:100px !important;
+  width:65px !important;
   height:50px;
+}
+
+.minpu-group{
+  width:70% !important;
+  position:absolute;
+  top:10px;
+  left:90px;
+}
+
+.pull-right{
+  float:right;
+}
+
+.pull-left{
+  float:left;
+}
+
+.navbar-toggler{
+  padding-top:15px;
 }
   .navbar-collapse {
     position: fixed;
     display: block;
     top: 0;
     height: 100vh !important;
-    width: 300px;
+    width: 400px;
     right: 0;
     z-index: 1032;
     visibility: visible;
@@ -3569,7 +3595,7 @@ Created using IcoMoon - icomoon.io
   .navbar .dropdown-menu .dropdown-item:focus, .navbar .dropdown-menu .dropdown-item:hover {
     color: #FFFFFF; }
   .navbar .navbar-translate {
-    width: 100%;
+    width:100%;
     margin-right:20px;
     display:block;
     position: relative;

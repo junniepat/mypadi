@@ -59,36 +59,36 @@
 <body class="login-page">
     <!-- Navbar -->
     <nav class="navbar navbar-toggleable-md bg-default fixed-top">
-        <div class="container">
-            <div class="navbar-translate">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-bar bar1"></span>
-                    <span class="navbar-toggler-bar bar2"></span>
-                    <span class="navbar-toggler-bar bar3"></span>
-                </button>
-                <a class="navbar-brand m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
-                  <img src="assets/img/my-logo4.jpg" alt="Mypadi" style="height:50px; width:50px;">
-                </a>
-            </div>
-
-               <div class="input-group mb-1">
-
-         <span class="mt-2 pt-1 ml-3">
-         <i class="fa fa-search text-muted"></i>  </span>
-      <input type="text" style="border:0; border-radius:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
-       
-       <div  class="input-group-addon okk p-0" style="height:44px; background:#fff; border-left:2px solid #ccc;">        
-
-    <select class="form-control custom-select" style="width:100%; border:1px solid #fff;">
-        <option selected>Student</option>
-    <option> Nysc</option>
-    </select>
+<div class="container p-0">
+<div class="navbar-translate">
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-bar bar1"></span>
+<span class="navbar-toggler-bar bar2"></span>
+<span class="navbar-toggler-bar bar3"></span>
+</button>
+<a class="navbar-brand m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
+<img src="assets/img/my-logo4.jpg" alt="Mypadi" style="height:50px; width:50px;">
+</a>
 </div>
-           <button class="input-group-addon pr-3 fa fa-search" style="border:0; background:#fff !important;"> </button>
-    </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">
-              
 
+<div class="input-group minpu-group mb-1 col-xs-5">
+
+<span class="mt-2 pt-1 ml-3">
+<i class="fa fa-search text-muted"></i>  </span>
+<input type="text" style="border:0; border-radius:0;" class="form-control" placeholder="Search Accomodation" aria-label="Product name">
+
+<div  class="input-group-addon okk p-0" style="height:44px; background:#fff; border-left:2px solid #ccc;">        
+
+<select class="form-control custom-select" style="width:100%; border:1px solid #fff;">
+<option selected>Student</option>
+<option> Nysc</option>
+</select>
+</div>
+<button class="input-group-addon pr-3 fa fa-search" style="border:0; background:#fff !important;"> </button>
+</div>
+
+
+  <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="../assets/img/blurred-image-1.jpg">       
  <ul class="navbar-nav">
      <li class="nav-item">
          
@@ -341,7 +341,7 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
 <div class="col-md-3 col-sm-12  dots-off"><span class="icons now-ui-icons business_bank"></span>Step 4 <small>All Done</small></div>
 </div>
 
-        <form action="#" id="myForm" class="card" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+        <form action="#" id="myForm" class="mt-2 pt-4 pb-5" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
             
 <div class="clearfix"></div>
     
@@ -418,8 +418,8 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
   <div class="col-md-4 col-sm-12 col-xs-12  form-group">
     <label for="Input">Duration</label>
     <div class="row">
-<div class="col-md-7 m-0 p-0"><input class="form-control" placeholder="3,000" type="text"></div>
-<div class="col-md-5 m-0 pl-0 ">
+<div class="col-md-7 mr-0 pr-0"><input class="form-control" placeholder="3,000" type="text"></div>
+<div class="col-md-5 ml-0 pl-0 ">
     <select class="form-control custom-select">
     <option selected>Daily</option>
     <option value="1">Month</option>
@@ -462,12 +462,13 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
 
 
     <div class="row">
-    <div class="col-md-4 pull-left">
-       <a href="listProperty2.html" class="btn btn-simple">Previous</a>
-</div>
-    <div class="col-md-8 pull-right text-right">
-        <a href="listProperty4.html" class="btn btn-simple">Next</a>
-    <button class="btn btn-success">Save</button>
+   
+    <div class="col-md-12 col-sm-12 col-xs-12">
+       <a href="listProperty2.html" class="btn btn-simple pull-left">Previous</a>
+
+<button class="btn btn-simple pull-right">Save</button>
+        <a href="listProperty4.html" class="btn btn-success pull-right">Next</a>
+    
     
     </div>
     
@@ -480,15 +481,178 @@ display: block; font-size: .875rem; line-height: 1.25rem; text-decoration: none;
         
     </div>
     
-    <!-- Include jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include jQuery Validator plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
-    
+    <section class="container-fluid text-center bg-success p-4 text-white"> 
+            <h4 class="talk">Talk to our friendly team of experts</h4>
+            <span style="display:inline-block;" class="badge badge-default mt-2 mb-2 p-3 text-white">
+                <span class="number">+234 9045677822</span>
+            
+               <span > Nigeria Office</span>
+            </span>
+        </section>
 
-    <!-- Include SmartWizard JavaScript source -->
-    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+        <section class="container p-3">
+            <div class="row">
+         <div class="col-md-3 col-sm-12 display-4">
+My padi
+         </div>
+ <div class="col-md-2 col-sm-12">
+     <ul class="nav-foot"> 
+         <li>Company</li>
 
- 
+   <li><a href="#"> About Us</a></li>
+    <li><a href="#"> Blog </a></li>
+    <li><a href="#"> Careers </a></li>
+     <li><a href="#">List Your Property </a></li>
+     <li><a href="#">Partners </a></li>
+    </ul>
+ </div>
+
+  <div class="col-md-2  col-sm-12">
+<ul class="nav-foot"> 
+         <li>Help</li>
+
+    <li>How It Works</li>
+    <li>Help Center</li>
+    <li>Contact Us</li>
+    </ul>
+  </div>
+
+   <div class="col-md-4">
+<b class="text-muted font-1_1">Sign up to our newsletter</b>
+ <div class="col-md-12 pl-0 mt-2">
+    <div class="input-group input-lg">
+      <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address">
+     <span class="input-group-addon" style"background-color: #333;">        
+        <span style="width:100px; color:#fff;">Subscribe!</span>
+                                    </span>
+                                   
+    </div>
+  </div>
+
+ <div>
+                        <a href="#pablo" class="btn btn-default btn-icon  btn-icon-mini">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-default btn-icon btn-icon-mini">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-default btn-icon  btn-icon-mini">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                         <a href="#pablo" class="btn btn-default btn-icon  btn-icon-mini">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+
+            </div>
+        </section>
+       
+        <footer class="footer">
+            <div class="container">
+                <hr>
+                <div class="row mt-1 p-3">
+                    <div class="col-md-4" style="text-align:left !important;">
+                 <div class="copyright pt-2" style="text-align:left !important;">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+                    <a href="#" target="_blank">Mypadi</a>.
+                </div>
+                </div>
+
+<div class="col-md-8">
+                <nav class="pull-right">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                My Padi
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                              cookies
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                               terms
+                            </a>
+                        </li>
+                         <li>
+                            <a href="#">
+                               Privacy
+                            </a>
+                        </li>
+                        <li>
+                           <!-- Default dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-simple">ENGLISH US</button>
+  <button type="button" class="btn btn-simple dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+
+  <div class="dropdown-menu">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+   </div>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<!--   Core JS Files   -->
+<script src="assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/core/tether.min.js" type="text/javascript"></script>
+<script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="assets/js/now-ui-kit.js" type="text/javascript"></script>
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="dist/js/bootstrap-select.js"></script>
+
+
+
 </html>

@@ -1,3 +1,7 @@
+.date-picker{
+    border:1px solid #333;
+}
+
 .titler{
     font-weight: bold;
     font-size: 1.1em;
@@ -6,13 +10,14 @@
 #myForm select{
     height: 34px !important;
     margin: 0;
-    padding-top:10px;
+    padding-top:7px;
 }
 
 .dots-on, .dots-off small{
     display: block;
     margin: 0;
 }
+
 .dots-off{
     cursor:disabled;
     float: left;
@@ -42,6 +47,7 @@
        color:#fff;
        padding: 10px;
        z-index: 100;
+      
 }
 
 .dots-on .icons{
