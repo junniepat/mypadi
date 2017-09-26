@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|PT+Sans|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Product+Sans');
+* {font-family: Product Sans, Heebo !important; }
 
 .bootstrap-switch {
   display: inline-block;
@@ -1785,7 +1786,7 @@ p.description {
 body {
   color: #2c2c2c;
   font-size: 14px;
-    font-family: 'Roboto', 'Open Sans', 'Lato', 'Raleway', 'PT Sans', sans-serif;
+    font-family: Product Sans;
   background:#FFFFF7 !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
