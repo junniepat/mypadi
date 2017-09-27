@@ -8,6 +8,11 @@
   z-index:900;
 }
 
+.heroo1{
+  min-height:50px;
+  z-index:900;
+}
+
 .selectpicker{
   background:#ffffff !important;
   opacity:0 !important;
