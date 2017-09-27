@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Product+Sans');
-* {font-family: Product Sans, Heebo !important; }
 
 .bootstrap-switch {
   display: inline-block;
@@ -1786,7 +1784,7 @@ p.description {
 body {
   color: #2c2c2c;
   font-size: 14px;
-    font-family: Product Sans;
+ font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   background:#FFFFF7 !important;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased; }
@@ -3491,6 +3489,7 @@ Created using IcoMoon - icomoon.io
   
 }
 
+
 .navbar{
 
   position:static;
@@ -3506,11 +3505,19 @@ Created using IcoMoon - icomoon.io
   left:90px;
 }
 
+.rightty{
+    display:none;
+  }
+  
 }
 
 @media screen and (max-width: 991px) {
   .text-cen{
     text-align:center;
+  }
+
+  .rightty{
+    display:none;
   }
 
   .navbar .navbar-brand img{
