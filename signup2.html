@@ -9,13 +9,11 @@
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 <!--     Fonts and icons     -->
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 <!-- CSS Files -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="all"/>
 <link href="assets/css/now-ui-kit.css" rel="stylesheet" media="all"/>
-<link href="assets/css/list.css" rel="stylesheet" />
-<link rel="stylesheet" href="assets/css/bootstrap3.css">
-<link rel="stylesheet" href="dist/css/bootstrap-select.css">
+
 
 <style>
 .selectpicker{
@@ -31,7 +29,7 @@ font-size:1.1em !important;
 font-weight:300 !important;
 }
 .AutoHeight{
-height:100vh !important;
+height:90.25vh !important;
 display:inline-block !important;
 margin:0;
 overflow-y:auto;
@@ -50,30 +48,53 @@ background:#fff; border:1px solid inherit; width:100%;
 .labell{
 opacity:0;
 }
+
+.logoo img{
+    width:65px !important;
+}
+
+.navbar-translate {
+    width:100% !important;
+}
 </style>
 
 </head>
 
 <body>
+<!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md bg-default fixed-top">
+        <div class="container">
+            <div class="navbar-translate col-md-12">
+                <a class="logoo m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
+                  <img src="assets/img/my-logo4.jpg" class="logoo" alt="Mypadi" height="50" width="70">
+                </a>
 
+                <div class="justify-content-end pull-right text-white">
+                    <button class="btn btn-success pull-right"> Login</button>
+            <span class="pull-right pt-2 pr-4">Already have an Account?</span> </div>
+            </div>
 
-<div class="container-fluid">
+             
+               
+          
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+<div class="container-fluid mt-5 pt-3">
 <div class="row">
 
-<div class="col-md-6 col-sm-12 AutoHeight bg-white">
-<div class="container pr-5 pl-5 pt-1 mr-5 ml-5">
-<div class="col-md-12">
-<a class="navbar-brand m-0" href="#" rel="tooltip" title="Mypadi " data-placement="bottom" target="_blank">
-<img src="assets/img/logo.png" alt="Mypadi" style="height:50px; width:70px;">
-</a></div>
+<div class="col-md-6 col-sm-12 pb-5 AutoHeight bg-white">
+<div class="container pr-5 pl-2 pt-1 mr-5 ml-5">
+
 <div class="pl-5 pr-5">
-<div class="display-5"> Sign up</div>
+<div class="display-5 mt-4"> Sign up</div>
 <h4 class="mt-0">and Make it Awesome!</h4>
 Sign up with:
-<div class="row p-0">
-<div class="col-md-4"><button class="btn btn-danger btn-block"> Google</button></div>
-<div class="col-md-4"><button class="btn btn-primary btn-block"> Facebook</button></div>
-<div class="col-md-4"><button class="btn btn-info btn-block"> Linkedin</button></div>
+<div class="row p-0 mt-1">
+<div class="col-md-4 col-sm-12"><button class="btn btn-danger btn-block"><i class="fa fa-google"></i> Google</button></div>
+<div class="col-md-4 col-sm-12"><button class="btn btn-primary btn-block"><i class="fa fa-facebook"></i> Facebook</button></div>
+<div class="col-md-4 col-sm-12"><button class="btn btn-info btn-block"><i class="fa fa-linkedin"></i> Linkedin</button></div>
 </div>
 
 
@@ -100,14 +121,14 @@ Sign up with:
 
 <div class="card-block p-0">
 <!-- Tab panes -->
-<div class="tab-content p-0">
+<div class="tab-content pl-0 pr-0 pt-0 pb-5">
 <div class="tab-pane active p-0" id="home1" role="tabpanel">
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">First Name*</label>
 <input type="text" class="form-control" id="FirstName" placeholder="First Name">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Last Name</label>
 <input type="text" class="form-control" id="lastName" placeholder="Last Name">
 </div>
@@ -126,11 +147,11 @@ Sign up with:
 
 
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Password</label>
 <input type="text" class="form-control" id="FirstName" placeholder="Password">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Confirm Password</label>
 <input type="text" class="form-control" id="lastName" placeholder="Confirm Password">
 </div>
@@ -148,44 +169,44 @@ Sign up with:
 </div>
 
 <div class="row">
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Date Of Birth</label>
 <select class="custom-select form-control">
-<option selected value="01"> 01</option>
+<option selected value="01"> Day</option>
 <option value="2"> 02</option>
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
-<option selected value="01"> 01</option>
+<option selected value="01"> Month</option>
 <option value="2"> 02</option>
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
-<option selected value="01"> 01</option>
+<option selected value="01"> Year</option>
 <option value="2"> 02</option>
 <option value="3"> 03</option>
 </select>
 </div>
 </div>
 
-<div class="col-md-12 pl-0 pr-0">
+<div class="col-sm-12 pl-0 pr-0">
 <button class="btn btn-success btn-block">Sign Up</button>
 </div>
 </div>
 
 <div class="tab-pane" id="profile1" role="tabpanel">
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">First Name*</label>
 <input type="text" class="form-control" id="FirstName" placeholder="First Name">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Last Name</label>
 <input type="text" class="form-control" id="lastName" placeholder="Last Name">
 </div>
@@ -204,11 +225,11 @@ Sign up with:
 
 
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Password</label>
 <input type="text" class="form-control" id="FirstName" placeholder="Password">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Confirm Password</label>
 <input type="text" class="form-control" id="lastName" placeholder="Confirm Password">
 </div>
@@ -226,7 +247,7 @@ Sign up with:
 </div>
 
 <div class="row">
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Date Of Birth</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -234,7 +255,7 @@ Sign up with:
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -242,7 +263,7 @@ Sign up with:
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -258,11 +279,11 @@ Sign up with:
 </div>
 <div class="tab-pane" id="messages1" role="tabpanel">
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">First Name*</label>
 <input type="text" class="form-control" id="FirstName" placeholder="First Name">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Last Name</label>
 <input type="text" class="form-control" id="lastName" placeholder="Last Name">
 </div>
@@ -281,11 +302,11 @@ Sign up with:
 
 
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Password</label>
 <input type="text" class="form-control" id="FirstName" placeholder="Password">
 </div>
-<div class="col-md-6 col-sm-6 col-xs-12 form-group">
+<div class="col-md-6 col-sm-12 col-xs-12 form-group">
 <label for="lastName">Confirm Password</label>
 <input type="text" class="form-control" id="lastName" placeholder="Confirm Password">
 </div>
@@ -293,7 +314,7 @@ Sign up with:
 
 
 <div class="row">
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label for="FirstName">Date Of Birth</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -301,7 +322,7 @@ Sign up with:
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -309,7 +330,7 @@ Sign up with:
 <option value="3"> 03</option>
 </select>
 </div>
-<div class="col-md-4 col-sm-6 col-xs-12 form-group">
+<div class="col-md-4 col-sm-12 col-xs-12 form-group">
 <label class="labell">@</label>
 <select class="custom-select form-control">
 <option selected value="01"> 01</option>
@@ -326,7 +347,7 @@ Sign up with:
 </div> </div> </div>
 
 
-<div class="col-md-6 col-sm-12 AutoHeight bg-info" style=" background:url('assets/img/mp-bg.jpg')"></div> 
+<div class="col-md-6 col-sm-12 AutoHeight bg-info  hidden-md-down" style=" background:url('assets/img/mp-bg.jpg')"></div> 
 
 </div>
 
