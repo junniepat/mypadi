@@ -858,7 +858,7 @@
   color: #ababab;
   border-color: #ababab; }
 .btn.btn-link {
-  color: #B8B8B8; }
+  color: #B8B8B8; text-decoration: underline; }
 .btn.btn-link:hover, .btn.btn-link:focus, .btn.btn-link:active {
   background-color: transparent;
   color: #ababab;
@@ -3508,7 +3508,7 @@ Created using IcoMoon - icomoon.io
 .rightty{
     display:none;
   }
-  
+
 }
 
 @media screen and (max-width: 991px) {
