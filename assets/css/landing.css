@@ -1,3 +1,91 @@
+.minpu-form{
+    top:150px;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 521px)  {
+.minpu-form{
+    top:100px;
+}
+
+.large-group{
+  font-size: 1.5em;
+position: absolute;
+  top:100px;
+}
+
+}
+
+@media only screen and (max-width: 521px) and (min-width: 200px)  {
+.minpu-form{
+    top:90px;
+}
+
+.large-group{
+  font-size: 1.5em;
+position: absolute;
+  top:140px;
+}
+
+}
+
+
+
+
+.rightti{
+    background:url('assets/img/mp-bg.jpg')
+}
+.border-success{
+    border:4px solid #8cc43f;
+}
+
+.border-darkGreen{
+    border:4px solid #195c5a;
+}
+.img-rounded{
+    height: 150px;
+border-radius: 50%;
+margin-bottom: 20px;
+}
+
+.overlay-2{
+     height:88%; 
+     display: inline-block;
+     width:100%; 
+     margin-top:-100px; 
+     background:rgba(0,0,0, .6);
+     margin: 0;
+}
+
+.overlay-1{
+     height:100%; 
+     display: inline-block;
+     width:100%; 
+     margin-top:-100px; 
+     background:rgba(0,0,0, .2);
+     z-index: 10;
+     margin: 0;
+}
+
+
+.container-round{
+  background:url('../img/mp-bg.jpg') !important;
+   background-size:cover;
+   background-repeat: no-repeat;
+}
+
+
+.cities{
+    background: url('../img/lagos.jpg') rgba(0, 0, 0, 0.4)  !important;
+    background-size: cover;
+    height:190px;
+}
+
+
+.room{
+    text-align: center;
+    height:350px;
+}
+
 
 .main{
     background:transparent !important;
@@ -14,6 +102,7 @@
 
 .large-group{
   font-size: 1.5em;
+  
 }
 .large-group input{
 height:80px;
@@ -57,7 +146,7 @@ background:#fff;
 .main-container {
   background: #fff;
   position: relative;
-  margin-top:200px;
+  margin-top:280px;
   width:100%;
   z-index:100;
  
